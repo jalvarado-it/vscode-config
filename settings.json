@@ -1,0 +1,95 @@
+/*
+* Athor: Jesus Alvarado BAstida
+* email: jalvarado@dijkstracompany.com
+* VS Code configurtion
+* Use this to change your user or workspace settings.json (Appliying to all)
+* Use this file inside the .vscode/ folder to apply only to a project
+*/
+{
+  /* Explorer configurations */
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": true,
+  /* Terminal configurations */
+  "terminal.explorerKind": "external",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  /* Editor */
+  "editor.tabSize": 2,
+  "editor.autoIndent": "brackets",
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": true,
+  "editor.rulers": [ //The vertical line
+    100
+  ],
+  /* Editor - Language specific */
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "[javascript]": {},
+  "[php]": {},
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  /* Other */
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.associations": {
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php",
+    "*.info": "ini"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "telemetry.enableTelemetry": false,
+  /* Empty Indent */
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  "editor.quickSuggestions": {
+    "comments": true
+  },
+  /*
+    * Language specific configurations
+    * override with a .code-workspace
+    */
+  /* CSS */
+  "css.validate": true,
+  "css.completion.completePropertyWithSemicolon": true,
+  "css.completion.triggerPropertyValueCompletion": true,
+  "css.lint.duplicateProperties": "warning",
+  /* SCSS */
+  "scss.validate": true,
+  "scss.completion.completePropertyWithSemicolon": true,
+  /* JavaScript */
+  "javascript.validate.enable": true,
+  "javascript.format.semicolons": "insert",
+  /* HTML */
+  "html.format.wrapLineLength": 0,
+  "html.format.enable": true,
+  "html.suggest.html5": true,
+  "html.autoClosingTags": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true
+}
